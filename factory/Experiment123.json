@@ -1,0 +1,9 @@
+{
+	"name": "Experiment123",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "17b0237b-e170-49a6-9949-54da3871fc03",
+		"tenantId": "27aa5a8e-52ff-4ee0-9bc9-cbb30bff07b2"
+	}
+}

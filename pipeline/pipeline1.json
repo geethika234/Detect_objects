@@ -14,11 +14,39 @@
 					"secureInput": false
 				},
 				"userProperties": []
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "kk",
+					"value": "8"
+				}
+			},
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": []
 			}
 		],
 		"parameters": {
 			"table list": {
 				"type": "array"
+			}
+		},
+		"variables": {
+			"kk": {
+				"type": "String"
 			}
 		},
 		"annotations": []
